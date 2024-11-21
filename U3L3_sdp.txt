@@ -1,0 +1,12 @@
+1 - What is the base case of the merge sort algorithm? When do we stop digging?
+  When the list has only one item or is empty
+
+2 - How does the argument of the merge_sort function move towards the base case?
+  By constantly splitting the list in half and sorting both halves, making it move towards the base case
+
+3 - What tool(s)/techinque(s) will be most helpful to communicate how to cut the list in half? How will you determine where to cut? How will you actually cut it?
+  A pivot, it will be either the left, right, or median of the list. We divide the list into two parts and just continue cutting and cutting until none is left
+
+4 - The whole idea of merge sort is that as it climbs back out of the recursive calls, it will combine two sorted lists into one new sorted list.
+    Why is this approach more efficient that sorting two randomly shuffled lists into one?
+Because its called "Divide and Conquer", its a lot simpler just dividing the work just like real life. You do one part of work then another person does another part.
